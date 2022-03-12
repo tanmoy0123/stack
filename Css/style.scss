@@ -1,0 +1,624 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 84%;
+  margin: 0 auto;
+}
+header{
+  background-image: url(../Img/landing-10.jpg);
+  height: 590px;
+  padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+
+
+  .menu{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+
+    ul{
+
+      li{
+        float: left;
+        list-style-type: none;
+        margin-right: 20px;
+        color: rgba(149, 165, 166,1.0);
+
+
+        a{
+          text-decoration: none;
+          color: rgba(236, 240, 241,0.5);
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          transition: 0.4s;
+
+
+
+          &:hover{
+            color: #fff;
+            transition: 0.4s;
+          }
+
+          i{
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .logo{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+
+    img{
+      width: 75px;
+      margin-left: 80px;
+    }
+  }
+
+  .btn{
+    width: 30%;
+    float: left;
+    text-align: right;
+
+
+    button{
+      padding: 9px 24px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      font-weight: bolder;
+      border-radius: 9px;
+      transition: .4s;
+
+      &:hover{
+        box-shadow: 0px 0px 9px 2px rgba(77,54,54,0.54);
+        -webkit-box-shadow: 0px 0px 9px 2px rgba(77,54,54,0.54);
+        -moz-box-shadow: 0px 0px 9px 2px rgba(77,54,54,0.54);
+        transition: .4s;
+      }
+
+
+    }
+
+    .btn1{
+      background: transparent;
+      border: solid #bdc3c7 1px;
+      margin-right: 20px;
+
+
+      &:hover{
+        background: #3498db;
+        border: 1px solid #3498db;
+      }
+    }
+
+    .btn2{
+      background: #3498db;
+      border: 1px solid #3498db;
+
+      &:hover{
+        background: transparent;
+        border: solid #ecf0f1 1px;
+      }
+    }
+  }
+
+  .content{
+    img{
+      width: 730px;
+      margin-top: 95px;
+
+    }
+
+    h1{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 25px;
+      color: #fff;
+    }
+
+    button{
+      padding: 9px 24px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      font-weight: bolder;
+      border-radius: 9px;
+      transition: .4s;
+      margin-top: 30px;
+
+      &:hover{
+        box-shadow: 0px 0px 9px 2px rgba(77,54,54,0.54);
+        -webkit-box-shadow: 0px 0px 9px 2px rgba(77,54,54,0.54);
+        -moz-box-shadow: 0px 0px 9px 2px rgba(77,54,54,0.54);
+        transition: .4s;
+      }
+
+
+    }
+    .btn2{
+      background: #3498db;
+      border: 1px solid #3498db;
+    }
+  }
+}
+
+
+.label{
+  height: 80px;
+  border-bottom: 1px solid #bdc3c7;
+  p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-top: 34px;
+
+    span{
+      padding: 5px 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      color: #fff;
+      font-weight: bolder;
+      border-radius: 9px;
+      background: #3498db;
+      border: 1px solid #3498db;
+      margin-right: 8px;
+    }
+
+    a{
+      color: #3498db;
+    }
+  }
+}
+
+
+
+.feature{
+  padding-top: 105px;
+
+
+    .box1{
+      width: 350px;
+      height: 365px;
+      float: left;
+      overflow: hidden;
+      border-radius: 10px;
+      border: 1px solid #bdc3c7;
+      margin-right: 25px;
+      transition: 0.4s;
+
+
+
+      &:hover{
+        box-shadow: 0px -2px 40px -4px rgba(0,0,0,0.74);
+        -webkit-box-shadow: 0px -2px 40px -4px rgba(0,0,0,0.74);
+        -moz-box-shadow: 0px -2px 40px -4px rgba(0,0,0,0.74);
+        transition: 0.4s;
+      }
+
+
+
+      img{
+        height: 235px;
+        width: 350px;
+      }
+
+      .text{
+        margin-left: 20px;
+        margin-top: 30px;
+
+        h3{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          font-weight: bolder;
+          color: black;
+
+        }
+
+        p{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          font-weight: lighter;
+          color: #bdc3c7;
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+
+        a{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          font-weight: bolder;
+          text-decoration: none;
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.about{
+
+
+
+  .text{
+    h3{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 35px;
+      text-align: center;
+      margin-top: 503px;
+      font-weight: lighter;
+    }
+
+    p{
+      font-family: 'Open Sans', sans-serif;
+      text-align: center;
+      margin-top: 30px;
+      font-size: 20px;
+      color:  #bdc3c7;
+    }
+  }
+}
+
+
+
+.feature_body{
+  padding-top: 105px;
+
+
+    .box1{
+      width: 540px;
+      height: 225px;
+      float: left;
+      overflow: hidden;
+      border-radius: 10px;
+      border: 1px solid #bdc3c7;
+      margin-right: 20px;
+
+
+
+
+
+      img{
+        height: 70px;
+        width: 80px;
+        float: left;
+        padding-top: 40px;
+        margin-left: 50px;
+        margin-right: 48px;
+      }
+
+      .text{
+        margin-left: 20px;
+        margin-top: 40px;
+
+
+        h3{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 14px;
+          font-weight: bolder;
+          color: black;
+
+        }
+
+        p{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          font-weight: lighter;
+          color: #bdc3c7;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          padding-top: 6px;
+
+        }
+
+        a{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 12px;
+          font-weight: bolder;
+          text-decoration: none;
+          margin-left: 158px;
+
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+      }
+   }
+
+
+      .box2{
+        width: 540px;
+        height: 225px;
+        float: left;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 1px solid #bdc3c7;
+        margin-right: 20px;
+        border-bottom: 5px solid #3498db;
+
+
+
+
+
+
+
+
+        img{
+          height: 70px;
+          width: 80px;
+          float: left;
+          padding-top: 40px;
+          margin-left: 50px;
+          margin-right: 48px;
+        }
+
+        .text{
+          margin-left: 20px;
+          margin-top: 40px;
+
+
+          h3{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            font-weight: bolder;
+            color: black;
+
+          }
+
+          p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            font-weight: lighter;
+            color: #bdc3c7;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding-top: 6px;
+          }
+
+          a{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            font-weight: bolder;
+            text-decoration: none;
+            margin-left: 158px;
+
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+
+
+    }
+}
+
+
+.video{
+
+    height: 700px;
+    background: #ecf0f1;
+    margin-top: 360px;
+    padding-bottom: 50px;
+
+
+    h1{
+
+      font-family: 'Open Sans', sans-serif;
+      font-size: 35px;
+      font-weight: lighter;
+      padding-top: 117px;
+
+    }
+
+    iframe{
+      margin-top: 65px;
+      border-radius: 10px;
+    }
+
+    p{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: lighter;
+      padding-top: 30px;
+    }
+
+}
+
+
+
+.label_2{
+  height: 150px;
+  background: #5798E4;
+
+  &:hover a{
+    text-decoration: underline;
+
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+
+
+    h1{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 33px;
+      font-weight: bolder;
+      padding-top: 55px;
+
+    }
+  }
+}
+
+
+
+.contact_part{
+  padding-top: 60px;
+  background: #2d3436;
+  height: 400px;
+
+
+    .box1{
+      width: 250px;
+      height: 365px;
+      float: left;
+      overflow: hidden;
+      margin-right: 25px;
+
+      h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #fff;
+      }
+
+      p{
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bolder;
+        padding-top: 40px;
+        line-height: 27px;
+      }
+    }
+
+    .box2{
+      width: 250px;
+      height: 365px;
+      float: left;
+      overflow: hidden;
+      margin-right: 25px;
+
+
+      h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #fff;
+      }
+
+      .updates{
+        padding-top: 40px;
+
+        i{
+          float: left;
+          overflow: hidden;
+          height: 100px;
+          margin-right: 20px;
+          color: #fff;
+        }
+
+
+        p{
+          font-family: 'Open Sans', sans-serif;
+          font-size: 13px;
+          font-weight: bolder;
+          color: #fff;
+          line-height: 17px;
+
+          a{
+            color: #5798E4;
+          }
+
+          .url{
+            margin-left: 35px;
+          }
+        }
+      }
+
+
+    }
+
+
+    .box3{
+      width: 250px;
+      height: 365px;
+      float: left;
+      overflow: hidden;
+      margin-right: 25px;
+
+
+      h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #fff;
+      }
+    }
+
+    .box4{
+      width: 250px;
+      height: 365px;
+      float: left;
+      overflow: hidden;
+      margin-right: 25px;
+
+
+      h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #fff;
+      }
+    }
+
+
+}
+
+
+footer{
+
+  height: 80px;
+  background: #000;
+
+
+  .box1{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    padding-top: 35px;
+
+    p{
+      color: #bdc3c7;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+    }
+  }
+
+  .box2{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    text-align: right;
+    margin-top: 30px;
+
+    i{
+      font-size: 24px;
+      margin-right: 20px;
+      color: #fff;
+    }
+  }
+}
